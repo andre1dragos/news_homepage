@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- link css file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- overlay container -->
+    <div class="overlay"></div>
+
+    <!-- header -->
+    <header class="header">
+      <!-- logo -->
+      <img src="./assets/images/logo.svg" alt="logo" class="logo" />
+
+      <!-- navigation menu -->
+      <nav class="nav-menu">
+        <!-- close menu button -->
+        <img
+          src="./assets/images/icon-menu-close.svg"
+          alt="close-menu-btn"
+          class="close-menu-btn"
+        />
+        <!-- navigation list -->
+        <ul class="nav-list">
+          <li class="list-item">
+            <a href="#" class="link">Home</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="link">New</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="link">Popular</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="link">Trending</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="link">Categories</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- menu button -->
+      <img
+        src="./assets/images/icon-menu.svg"
+        alt="menu-btn"
+        class="menu-btn"
+      />
+    </header>
+
+    <!-- main content -->
+    <main class="wrapper">
+      <section class="main-section">
+        <!-- main section mobile image -->
+        <img
+          src="./assets/images/image-web-3-mobile.jpg"
+          alt="main-mobile-img"
+          class="main-mobile-img"
+        />
+        <!-- main section desktop image -->
+        <img
+          src="./assets/images/image-web-3-desktop.jpg"
+          alt="main-desktop-img"
+          class="main-desktop-img hidden"
+        />
+
+        <!-- section description -->
+        <div class="description">
+          <!-- main section title -->
+          <h1 class="main-section-title">
+            The Bright <br />
+            Future of Web 3.0?
+          </h1>
+
+          <!-- section info -->
+          <div class="main-info">
+            <p class="main-text">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of people. But is it
+              really fulfilling its promise?
+            </p>
+            <button class="cta">Read More</button>
+          </div>
+        </div>
+        <!-- section button -->
+      </section>
+
+      <!-- aside container -->
+      <aside class="news-container">
+        <!-- news header -->
+        <p class="news-header">New</p>
+
+        <!-- news info -->
+        <div class="news-info">
+          <h4 class="news-title">Hydrogen VS Electric Cars</h4>
+          <p class="news-text">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </div>
+        <div class="news-info">
+          <h4 class="news-title">The Downsides of AI Artistry</h4>
+          <p class="news-text">
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </div>
+        <div class="news-info">
+          <h4 class="news-title">Is VC Funding Drying Up?</h4>
+          <p class="news-text">
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </div>
+      </aside>
+
+      <!-- ranking section -->
+      <section class="ranking">
+        <!-- ranked news container -->
+        <article class="ranked-news-container">
+          <!-- ranked image -->
+          <img
+            src="./assets/images/image-retro-pcs.jpg"
+            alt="retro-PCs"
+            class="ranked-img"
+          />
+
+          <!-- ranked info -->
+          <div class="ranked-info">
+            <!-- rank -->
+            <span class="rank">01</span>
+            <!-- rank title -->
+            <h4 class="rank-title">Reviving Retro PCs</h4>
+            <!-- rank-text -->
+            <p class="rank-text">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </article>
+
+        <article class="ranked-news-container">
+          <!-- ranked image -->
+          <img
+            src="./assets/images/image-top-laptops.jpg"
+            alt="retro-PCs"
+            class="ranked-img"
+          />
+
+          <!-- ranked info -->
+          <div class="ranked-info">
+            <!-- rank -->
+            <span class="rank">02</span>
+            <!-- rank title -->
+            <h4 class="rank-title">Top 10 Laptops of 2022</h4>
+            <!-- rank-text -->
+            <p class="rank-text">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </article>
+
+        <article class="ranked-news-container">
+          <!-- ranked image -->
+          <img
+            src="./assets/images/image-gaming-growth.jpg"
+            alt="retro-PCs"
+            class="ranked-img"
+          />
+
+          <!-- ranked info -->
+          <div class="ranked-info">
+            <!-- rank -->
+            <span class="rank">03</span>
+            <!-- rank title -->
+            <h4 class="rank-title">The Growth of Gaming</h4>
+            <!-- rank-text -->
+            <p class="rank-text">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
